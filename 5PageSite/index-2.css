@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+}
+.boody0 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+/*
+  background: url("right.jpeg");
+  background-position: center;
+  background-size: cover;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed;
+  z-index: -1;
+}
+
+.right-image {
+      position: fixed;
+      top: 0;
+      right: 0;
+      max-height: 100vh;
+      width: auto;
+      height: 105%;
+    }
+
+@media (max-width: 1919px) {
+      .right-image {
+        margin-right: -5%
+      }
+    } 
+
+.left-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    height: 100%;
+    width: auto;    
+}
+
+@media (max-width: 1919px) {
+      .left-image {
+        margin-left: -5%
+      }
+    } 
+
+header {
+  font-family: 'Courier New', arial;
+  font-weight: 900;
+  font-size: large;
+}
+
+/*header nav list*/
+.navlist ul {
+   display: flex;
+   align-items: center;
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+}
+
+.navlist li {
+   display: inline-block;
+   width: 15%;
+   text-align: center;
+}
+
+@media (max-width: 1749px) {
+      .navlist li{
+        width: 15%;
+      }
+    } 
+
+#velvet {
+    line-height: 20px;
+    text-align: center;
+    
+
+}
+#short1 {
+  width: 10%;
+}
+#short2 {
+  width: 10%;
+}
+#shorth {
+  width: 12%
+}
+.navlist li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navlist a:hover {
+  border-bottom: 5px solid white;
+}
+/*done*/
+
+.boody{
+	margin: 0px auto;
+	font-family: arial;
+	width: 65%;
+	background: rgb(51, 0, 37);
+	height: 1100px;
+  /*
+	border-width:10px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 0px 0px 30px 30px;
+  border-top: none;
+  */
+}
+
+#logo {
+	display: block;
+	width: 100%;
+	margin-left: center;
+	margin-right: center;
+}
+.square {
+  height: 10px;
+  width: 850px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+}
+.boody h1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: 'OCR A Std', monospace;
+}
+.para {
+  font-family: 'OCR A Std', monospace;
+  background-color: black;/*rgb(66, 0, 46);*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 10px;
+}
+.para {
+  border-width:10px;
+	border-color: black;
+	border-style: solid;
+	border-radius:30px 30px 30px 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lis {
+	width: 20%;
+  font-family: 'OCR A Std', monospace;
+  background-color: black;/*rgb(66, 0, 46);*/
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 10px 30px;
+}
+.lis {
+	border-width:10px;
+	border-color: black;
+	border-style: solid;
+	border-radius:30px 30px 30px 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/*footer list*/
+footer li {
+   display: inline-block;
+   width: 32.5%;
+   text-align: center;
+}
+footer ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+   color: white;
+}
+/*done*/
+
+/*purpose*/
+.purpose {
+  margin: 0;
+  height: 800px;
+  width: 100%;
+  background: black;
+}
+.purpose h1 {
+  padding-top: 40px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0px auto 0px auto;
+  font-family: 'OCR A Std', monospace;
+}
+.purpose p {
+  color: white;
+  font-family: 'OCR A Std', monospace;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.upper a {
+ position: fixed;
+  bottom: 5%;
+  border-width:7px;
+	border-color: black;
+	border-style: solid;
+	border-radius:30px 30px 30px 30px;
+  text-decoration: none;
+  background-color: grey;
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+}
+#gccpic {
+  border: 5px solid black;
+  border-right: none;
+  position: fixed;
+  top: 700px;
+  right: 0px;
+}

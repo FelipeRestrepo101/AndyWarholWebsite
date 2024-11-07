@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+body {
+  width: 100%;
+  height: 2000px;
+  background: url(child.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: scroll;
+  border-bottom: 20px solid black;
+  margin: 0px;
+}
+header {
+  font-family: 'Courier New', arial;
+  font-weight: 900;
+  font-size: large;
+}
+/*header nav list*/
+.navlist ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+}
+.navlist li {
+   display: inline-block;
+   width: 15%;
+   text-align: center;
+}
+#short1 {
+  width: 10%;
+}
+#short2 {
+  width: 10%;
+}
+#shorth {
+  width: 12%
+}
+
+.navlist li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navlist a:hover {
+  border-bottom: 5px solid white;
+}
+/*done*/
+
+#title {
+  display: block;
+  margin: 5px auto 0px 9%;
+  width: 30%;
+  font-family: 'OCR A Std', monospace;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  border-bottom: 15px solid white;
+  margin-bottom: 30px;
+}
+
+#intro {
+  background-color: black;
+  padding: 2%;
+  font-family: Georgia, serif;
+  font-size: 2.2em;
+  margin: 1% 30% 5% 9%;
+  color: white;
+  font-weight: 400;
+}
+
+#title2 {
+  display: block;
+  margin: 5px 9% 0px auto;
+  width: 30%;
+  font-family: 'OCR A Std', monospace;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  border-bottom: 15px solid white;
+  margin-bottom: 30px;
+}
+
+#intro2 {
+  background-color: black;
+  padding: 2%;
+  font-family: Georgia, serif;
+  font-size: 2.2em;
+  margin: 1% 9% 5% 30%;
+  color: white;
+  font-weight: 400;
+}
+
+
+#title3 {
+  display: block;
+  margin: 5px auto 0px 9%;
+  width: 30%;
+  font-family: 'OCR A Std', monospace;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  border-bottom: 15px solid white;
+  margin-bottom: 30px;
+}
+
+#intro3 {
+  background-color: black;
+  padding: 2%;
+  font-family: Georgia, serif;
+  font-size: 2.2em;
+  margin: 1% 30% 5% 9%;
+  color: white;
+  font-weight: 400;
+}
+/*footer list*/
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+footer li {
+   display: inline-block;
+   width: 32.5%;
+   text-align: center;
+}
+footer ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+   color: white;
+}

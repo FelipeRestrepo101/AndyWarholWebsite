@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+body {
+  width: 100%;
+  height: auto;
+  background: url(soup.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: scroll;
+  border-bottom: 20px solid black;
+  margin: 0px;
+}
+header {
+  font-family: 'Courier New', arial;
+  font-weight: 900;
+  font-size: large;
+}
+/*header nav list*/
+.navlist ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+}
+.navlist li {
+   display: inline-block;
+   width: 15%;
+   text-align: center;
+}
+#short1 {
+  width: 10%;
+}
+#short2 {
+  width: 10%;
+}
+#shorth {
+  width: 12%
+}
+
+.navlist li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navlist a:hover {
+  border-bottom: 5px solid white;
+}
+/*done*/
+#IC {
+  display: block;
+  margin: 50px 50% 0px 6%;
+  width: 650px;
+  font-family: 'OCR A Std', monospace;
+  font-size: 60px;
+  font-weight: 900;
+  border-bottom: 15px solid black;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+#intro {
+  background-color: black;
+  padding: 2%;
+  font-family: arial;
+  font-size: 2.7em;
+  margin: 5% 30% 5% 6%;
+  color: white;
+  font-weight: 400;
+}
+.campbellbox {
+  display: inline-block;
+  margin: 5% 0% 0% 5%;
+  height: auto;
+  width: 80%;
+}
+.campbell {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Andale Mono', monospace;
+  font-size: 1.2em;
+  background: white;
+  height: auto;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border: 5px solid white;
+  border-radius: 20px 20px 20px 20px;
+}
+.campbell img {
+  display: inline-block;
+  width: 30%;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-right: 2%;
+}
+.campbell p {
+  margin: 0%;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 1.9em;
+  width: 65%;
+}
+/*footer list*/
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+footer li {
+   display: inline-block;
+   width: 32.5%;
+   text-align: center;
+}
+footer ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+   color: white;
+}

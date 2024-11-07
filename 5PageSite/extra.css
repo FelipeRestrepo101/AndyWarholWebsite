@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+.top {
+  width: 100%;
+  height: 1000%;
+  background: url(extra.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin: 0px;
+}
+
+
+
+.review-outer {
+  max-width: 100%;
+  background-color: #251f4d;
+  padding: 50px 0px;
+}
+
+#refresh {
+  color: #b8bcc8;
+  margin: 0;
+}
+
+.review-section {
+  font-family: 'Andale Mono', monospace;
+  margin: 0;
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+.review {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+}
+
+.review-text {
+  margin: 0;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 0px;
+}
+
+.review h2, h1 {
+  margin: 0;
+}
+
+.review h4 {
+  margin: 0;
+  color: #943404;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+
+.bottom {
+  width: 100%;
+  height: 1700px;
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  box-shadow: inset 20px 20px 40px black;
+}
+
+
+header {
+  font-family: 'Courier New', arial;
+  font-weight: 900;
+  font-size: large;
+}
+/*header nav list*/
+.navlist ul {
+  background-color: black;
+  line-height: 50px;
+  margin: auto;
+}
+.navlist li {
+   display: inline-block;
+   width: 15%;
+   text-align: center;
+}
+#short1 {
+  width: 10%;
+}
+#short2 {
+  width: 10%;
+}
+#shorth {
+  width: 12%
+}
+
+.navlist li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navlist a:hover {
+  border-bottom: 5px solid white;
+}
+/*done*/
+#extra {
+  width: 38%;
+  display: inline-block;
+  color: black;
+  font: arial;
+  font-size: 10em;
+  margin: 4% 7% 4% 7%;
+  text-shadow: 7px 9px 15px black;
+}
+.feed {
+  display: inline-block;
+  vertical-align: top;
+  margin: 8% 8% 0% 14%;
+  height: auto;
+  width: 20%;
+}
+.feed h1 {
+  text-align: center;
+  color: white;
+  font-family: arial;
+  font-weight: 800;
+}
+.whitebox {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+	font-family: 'Andale Mono', monospace;
+  font-size: 1.2em;
+  background: white;
+	height: auto;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border: 5px solid white;
+  border-radius: 20px 20px 20px 20px;
+}
+form div {
+  margin: 5px 0px 40px 0;
+}
+
+
+
+
+#museum {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 4em;
+  margin: 10% 2% 2% 2%;
+  font-family: 'Courier New', arial;
+}
+.bottom img {
+  display: inline-block;
+  width: 20%;
+  margin: 3% 5% 0% 0%;
+}
+
+#bookh {
+  width: 20%;
+  font-family: arial;
+  margin: 0% 5% 1% 5%;
+  border-bottom: 10px solid black;
+}
+.books {
+  display: flex;
+  width: 25%;
+  height: 20%;
+  margin: 0% 5% 10% 5%;
+}
+#book1 {
+  width: 250px;
+}
+#book2 {
+  width: 250px;
+}
+
+
+#resourcesh {
+  margin: 10px 10% 10px 10%;
+}
+
+dl {
+  margin: 0% 10% 40% 10%;
+  font-family: arial;
+}
+
+/*footer list*/
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+footer li {
+   display: inline-block;
+   width: 32.5%;
+   text-align: center;
+}
+footer ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+   color: white;
+}

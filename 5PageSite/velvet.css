@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+html {
+ 
+}
+
+.velvetlive {
+  width: 100%;
+  height: 1000px;
+  background: url(velvetlive.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  border-bottom: 5px solid black;
+}
+
+
+
+header {
+  font-family: 'Courier New', arial;
+  font-weight: 900;
+  font-size: large;
+}
+.navlist ul {
+   background-color: black;
+   line-height: 50px;
+   margin: 0;
+}
+
+.navlist li {
+   display: inline-block;
+   width: 15%;
+   text-align: center;
+}
+#short1 {
+  width: 10%;
+}
+#short2 {
+  width: 10%;
+}
+#shorth {
+  width: 12%
+}
+.navlist li a {
+   color: white;
+   text-decoration: none;
+}
+
+.navlist a:hover {
+  border-bottom: 5px solid white;
+}
+
+
+.velvetlive article {
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 30px;
+  font-family: 'Courier New', arial;
+  margin-left: 40px;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.titleg h1 {
+  margin: 0% 0% 0% 0%;
+  padding: 0;
+  color: white;
+  line-height: 30px;
+  font-family: 'Courier New', arial;
+}
+
+.velvetwarhol { 
+  width: 100%;
+  height: 1000px;
+  background: url(velvetwarhol.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+.relationshiph {
+	margin: 0% 0% 0% 0%;
+  padding: 0;
+  color: white;
+  line-height: 30px;
+  font-family: 'Courier New', arial;
+}
+
+.relationship {
+	background: black;
+	width: 50%;
+margin: 0% 0% 0% 40px;
+  padding: 0;
+  color: white;
+  line-height: 30px;
+  font-family: 'Courier New', arial;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+
+.arrow {
+  position:absolute;
+  top: 700px;    
+  right:20px;
+  color: white; 
+  font-size: 100px;   
+}
+  margin-right: 20px;
+  text-align: right;
+  color: white;
+}
